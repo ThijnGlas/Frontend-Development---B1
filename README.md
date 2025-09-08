@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Thijn Glas
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  rood/zwart
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Beide
  
 </details>
 
@@ -36,15 +36,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  [link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp](https://restaurantonyx.com/)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  restaurant Onyx homepagina
+  <img src="./readme-images/homepagina.png" width="375px" alt="foto van de homepagina op mobiel formaat">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  restaurant Onyx restaurant pagina  
+  <img src="./readme-images/restaurant.png" width="375px" alt="foto van de homepagina op mobiel formaat">
  
 </details>
 
@@ -56,7 +56,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  Tijdens de les over toegankelijkheid hebben we gebruik gemaakt van verschillende spullen om te kunnen mee maken hoe mensen met een bepaalde “handicap”.
+  
+  We hebben verschillende brillen opgehad en met een elektriciteit gevend apparaat “spasms” meegemaakt.
+  
+  Daarna zijn we bezig geweest met voiceover gebruiken, naast dat het erg lastig te navigeren was waren er ook een aantal problemen met de website zoals dat sommige text gezien werd als verschillende letters inplaats van 1 woord.
+    <img src="./readme-images/screenreader.png" width="500px" alt="foto van screenreader fout">
+
 
 </details>
 
