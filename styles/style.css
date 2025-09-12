@@ -19,6 +19,30 @@
 	--color-background:#eee;
 }
 
+@font-face {
+	font-display:swap;
+	font-family:Futura PT;
+	font-style:normal;
+	font-weight:400;
+	src:url(./fonts/futura-pt-regular-webfont.woff2) format("woff2"),
+	url(./fonts/futura-pt-regular-webfont.woff2) format("woff")
+  }
+  @font-face {
+	font-display:swap;
+	font-family:Futura PT;
+	font-style:normal;
+	font-weight:300;
+	src:url(./fonts/fonts/futura-pt-light-webfont.woff2) format("woff2"),
+	url(./fonts/fonts/futura-pt-light-webfont.woff) format("woff")
+  }
+  @font-face {
+	font-display:swap;
+	font-family:HV Clio;
+	font-style:normal;
+	font-weight:400;
+	src:url(./fonts/fonts/hv_clio_regular-webfont.woff2) format("woff2"),
+	url(./fonts/fonts/hv_clio_regular-webfont.woff) format("woff")
+  }
 
 
 
@@ -29,3 +53,6 @@
 
 /* jouw code */
 
+h1{ 
+	font-family: 'HV Clio';
+}
