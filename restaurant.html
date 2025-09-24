@@ -5,29 +5,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./scripts/menu.js"></script>
+    <script src="./scripts/talen.js"></script>
 </head>
 
-<body>
+<body class="restaurant">
     <header>
         <nav>
+            <a href="">giftvoucher</a>
             <ul>
-                <li><a href="">Gift voucher</a></li>
-                <li><a href=""><img src="" alt="logo"></a></li>
-                <li><a href="">EN ></a></li>
-                <li><a href="">menu</a></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 140 49" width="140"
+                            height="49">
+                            <g fill="currentColor" clip-path="url(#logo-onyx-path)">
+                                <path
+                                    d="M140 12.896h-2.027l-5.965 6.28-5.777-6.28-2.054-.006 7.831 8.86L140 12.895ZM124.177 35.203h2.027l5.965-6.28 5.771 6.28 2.06.005-7.831-8.858-7.992 8.853ZM0 23.196c.116 9.77 4.247 17.326 12.885 21.915 9.223 4.899 18.353 4.098 26.847-1.96 6.412-4.574 10.791-13.874 9.527-19.557-3.032 12.15-11.66 19.904-22.716 20.517-5.727.315-10.99-1-15.74-4.208C4.843 35.883 1.436 30.177 0 23.196ZM5.324 20.484c2.596-9.836 8.4-15.994 18.419-16.436 10.825-.475 17.298 5.617 20.39 16.138C44.393 8.478 35.38-.32 23.958.011 13.321.315 4.562 9.715 5.324 20.484ZM65.656 16.199v18.954h-1.778V12.93h1.778l12.068 18.955V12.929h1.778v22.224h-1.778L65.656 16.2ZM106.47 33.044c.37-.564.558-1.464.558-2.718V25.82c-.569.508-1.331.894-2.286 1.16-.95.264-1.861.397-2.729.397-2.242 0-4.015-.558-5.318-1.668-1.303-1.11-1.955-2.756-1.955-4.937v-7.843h1.778v8.157c0 1.48.508 2.607 1.525 3.38 1.016.774 2.336 1.16 3.97 1.16 1.249 0 2.337-.265 3.27-.795.933-.53 1.513-1.32 1.745-2.38v-9.527h1.812v17.27c0 1.546-.293 2.756-.873 3.634-.58.878-1.403 1.391-2.463 1.54l-.414-1.176c.552-.21 1.01-.596 1.38-1.16v.012Z">
+                                </path>
+                            </g>
+                            <defs>
+                                <clipPath id="logo-onyx-path">
+                                    <path fill="currentColor" d="M0 0h140v48.303H0z"></path>
+                                </clipPath>
+                            </defs>
+                        </svg></a></li>
+                <li class="taal">
+                    <a href="">EN <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="512" height="512" viewBox="0 0 512 512"><path d="m396.6 160 19.4 20.7L256 352 96 180.7l19.3-20.7L256 310.5z"/></svg></a>
+                    <ul class="dropdown">
+                        <li><a href="">ar</a></li>
+                        <li><a href="">fr</a></li>
+                        <li><a href="">br</a></li>
+                        <li><a href="">nl</a></li>
+                        <li><a href="">de</a></li>
+                        <li><a href="">it</a></li>
+                        <li><a href="">ru</a></li>
+                        <li><a href="">zh</a></li>
+                        <li><a href="">es</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <button id="menuButton" class="hamburger">
+                        Menu
+                        <span></span>
+                        <span></span>
+                    </button>
+                </li>
             </ul>
         </nav>
-        <img src="" alt="">
+        <nav id="menu">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="">The map</a></li>
+                <li><a class="active" href="/restaurant.html">The restaurant</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Reservation</a></li>
+                <li><a href="">Give the gift of Onyx</a></li>
+            </ul>
+            <ul>
+                <li><a href="">Instagram</a></li>
+                <li><a href="">Facebook</a></li>
+                <li><a href="">Tik Tok</a></li>
+            </ul>
+        </nav>
+        <img src="./images/restaurant1.avif" alt="">
         <h1>
             Onyx: a sensation, a celebration, a magic of taste
         </h1>
     </header>
     <main>
         <section>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="./images/restaurant2.avif" alt="">
+            <img src="./images/restaurant3.avif" alt="">
+            <img src="./images/restaurant4.avif" alt="">
+            <img src="./images/restaurant5.avif" alt="">
             <h2>ONYX</h2>
         </section>
         <section>
@@ -37,28 +86,44 @@
                 gastronomic press and customer ratings on the internet.</p>
             <p>The ONYX welcomes you in a remarkable setting that will transport you for the duration of a meal into the
                 atmosphere of chic Parisian brasseries.</p>
-            <a href=""><img src="" alt="">discover the menu</a>
+            <a class="btn" href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+                    height="27" class="mr-xs">
+                    <path fill="#0C1E30"
+                        d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+                    </path>
+                    <path fill="#0C1E30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+                </svg>
+                Reserve a table
+            </a>
         </section>
         <section>
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="./images/restaurant6.avif" alt="">
+            <img src="./images/restaurant7.avif" alt="">
             <span>
-                <h3>A gastronomy of emotions where the combination of flavors takes on its full meaning.</h3>
-                <img src="" alt="">
+                <p>A gastronomy of emotions where the combination of flavors takes on its full meaning.</p>
+                <img src="./images/restaurant8.avif" alt="">
             </span>
         </section>
         <section>
             <article>
-                <img src="" alt="">
+                <img src="./images/restaurant9.avif" alt="">
                 <h3>Design lovers</h3>
                 <p>ONYX welcomes you to its two-storey premises, imagined and designed by the Anégil architectural firm,
                     whose touch and sensibility are sublimated in this new address.</p>
-                <a href="">Reserve a table</a>
+                <a class="btn" href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27"
+                        width="29" height="27" class="mr-xs">
+                        <path fill="#fff"
+                            d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+                        </path>
+                        <path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+                    </svg>
+                    Reserve a table
+                </a>
             </article>
             <article>
                 <a href="">71, rue de Provence, 75009 Paris</a>
                 <p>Open daily:</p>
-                    <p>12:00-14:30 and 19:00-22:30</p>
+                <p>12:00-14:30 and 19:00-22:30</p>
                 <p>Valet parking available in the evening
                     on Fridays, Saturdays and Sundays (cost €20)</p>
             </article>
@@ -70,23 +135,200 @@
                     Every visit to ONYX is punctuated by a climb up the elaborate metal staircase along the 4-meter-high
                     Onyx marble wall.</p>
             </article>
-        </section>
-        <section>
-            <img src="" alt=""><img src="" alt=""><img src="" alt=""><img src="" alt="">
+            <ul>
+                <li><img src="./images/restaurant-grid-1.avif" alt=""></li>
+                <li><img src="./images/restaurant-grid-2.avif" alt=""></li>
+                <li><img src="./images/restaurant-grid-3.avif" alt=""></li>
+                <li><img src="./images/restaurant-grid-4.avif" alt=""></li>
+            </ul>
         </section>
         <section>
             <div>
-                <a href="">reserveer tafel</a>
-                <a href="">reserveer tafel</a>
-                <a href="">reserveer tafel</a>
-                <a href="">reserveer tafel</a>
-                <a href="">reserveer tafel</a>
-                <a href="">reserveer tafel</a>
-                <a href="">reserveer tafel</a>
-                <a href="">reserveer tafel</a>
-                <a href="">reserveer tafel</a>
-            </div>
-            <h2>Venez</h2>
+				<div>
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+							height="27" class="mr-xs">
+							<path fill="#0c1e30"
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+							height="27" class="mr-xs">
+							<path fill="#0c1e30"
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+							height="27" class="mr-xs">
+							<path fill="#0c1e30"
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
+
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+						height="27" class="mr-xs">
+						<path fill="#0c1e30"
+							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+						</path>
+						<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+					</svg>
+					<p>Reserve a table</p>
+				</a>
+				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+						height="27" class="mr-xs">
+						<path fill="#0c1e30"
+							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+						</path>
+						<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+					</svg>
+					<p>Reserve a table</p>
+				</a>
+				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+						height="27" class="mr-xs">
+						<path fill="#0c1e30"
+							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+						</path>
+						<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+					</svg>
+					<p>Reserve a table</p>
+				</a>
+				</div>
+				<div>
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+							height="27" class="mr-xs">
+							<path fill="#0c1e30"
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+							height="27" class="mr-xs">
+							<path fill="#0c1e30"
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+							height="27" class="mr-xs">
+							<path fill="#0c1e30"
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
+
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+						height="27" class="mr-xs">
+						<path fill="#0c1e30"
+							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+						</path>
+						<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+					</svg>
+					<p>Reserve a table</p>
+				</a>
+				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+						height="27" class="mr-xs">
+						<path fill="#0c1e30"
+							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+						</path>
+						<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+					</svg>
+					<p>Reserve a table</p>
+				</a>
+				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+						height="27" class="mr-xs">
+						<path fill="#0c1e30"
+							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+						</path>
+						<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+					</svg>
+					<p>Reserve a table</p>
+				</a>
+				</div>
+				<div>
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+							height="27" class="mr-xs">
+							<path fill="#0c1e30"
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+							height="27" class="mr-xs">
+							<path fill="#0c1e30"
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+							height="27" class="mr-xs">
+							<path fill="#0c1e30"
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
+
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+						height="27" class="mr-xs">
+						<path fill="#0c1e30"
+							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+						</path>
+						<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+					</svg>
+					<p>Reserve a table</p>
+				</a>
+				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+						height="27" class="mr-xs">
+						<path fill="#0c1e30"
+							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+						</path>
+						<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+					</svg>
+					<p>Reserve a table</p>
+				</a>
+				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+						height="27" class="mr-xs">
+						<path fill="#0c1e30"
+							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+						</path>
+						<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+					</svg>
+					<p>Reserve a table</p>
+				</a>
+				</div>
+			</div>
+        </section>
+        <button>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 26 26" height="54" width="54">
+                <path
+                    d="M 8.0322 0 C 3.6422 0 0.0643 3.56 0.0643 7.928 C 0.0643 9.328 0.4342 10.688 1.1256 11.888 L 0 16 L 4.2212 14.896 C 5.387 15.528 6.6975 15.864 8.0322 15.864 C 12.4221 15.864 16 12.304 16 7.936 C 16 5.816 15.1719 3.824 13.6684 2.328 C 12.1649 0.824 10.1628 0 8.0322 0 M 8.0403 1.336 C 9.8091 1.336 11.4654 2.024 12.7196 3.272 C 13.9659 4.52 14.6573 6.176 14.6573 7.936 C 14.6573 11.568 11.6824 14.52 8.0322 14.52 C 6.8423 14.52 5.6764 14.208 4.6633 13.6 L 4.4222 13.464 L 1.9136 14.12 L 2.5809 11.688 L 2.4202 11.432 C 1.7608 10.4 1.4071 9.176 1.4071 7.928 C 1.4151 4.296 4.3819 1.336 8.0403 1.336 M 5.2101 4.264 C 5.0814 4.264 4.8643 4.312 4.6794 4.512 C 4.5026 4.712 3.9799 5.2 3.9799 6.168 C 3.9799 7.144 4.6955 8.08 4.7839 8.216 C 4.8965 8.352 6.199 10.352 8.201 11.2 C 8.6754 11.416 9.0453 11.536 9.3347 11.624 C 9.8091 11.776 10.2433 11.752 10.589 11.704 C 10.9749 11.648 11.7629 11.224 11.9317 10.76 C 12.1005 10.296 12.1005 9.904 12.0523 9.816 C 11.996 9.736 11.8674 9.688 11.6664 9.6 C 11.4654 9.488 10.4844 9.008 10.3076 8.944 C 10.1227 8.88 10.0101 8.848 9.8574 9.04 C 9.7287 9.24 9.3428 9.688 9.2302 9.816 C 9.1096 9.952 8.997 9.968 8.804 9.872 C 8.595 9.768 7.9517 9.56 7.196 8.888 C 6.601 8.36 6.2071 7.712 6.0864 7.512 C 5.99 7.32 6.0784 7.2 6.1749 7.112 C 6.2633 7.024 6.392 6.88 6.4724 6.76 C 6.5769 6.648 6.6091 6.56 6.6734 6.432 C 6.7378 6.296 6.7056 6.184 6.6573 6.088 C 6.6091 6 6.2071 5.008 6.0383 4.616 C 5.8774 4.232 5.7166 4.28 5.588 4.272 C 5.4754 4.272 5.3467 4.264 5.2101 4.264 Z"
+                    transform="translate(5.5 5.5)"></path>
+            </svg>
+        </button>
+    </main>
+    <footer>
+        <img src="./images/header-background.jpeg" alt="">
+        <section>
+            <h2>Come</h2>
             <span>
                 <a href="">Instagram</a>
                 <a href="">Facebook</a>
@@ -94,32 +336,52 @@
             </span>
             <span>
                 <a href="">
-                    <p>adres blah blah blah</p>
+                    <p>71, rue de Provence, 75009 Paris</p>
                 </a>
-                <p>anog meer blahblah</p>
-                <p>12:00 - 14:00 et 19:00 - 22:30</p>
+                <p>Open daily</p>
+                <p>12:00-14:30 and 19:00-22:30</p>
             </span>
             <span>
-                <p>Kan geen frans blah blah</p>
-                <p>Kan geen frans blah blah</p>
+                <p>Valet parking available in the evening</p>
+                <p>on Fridays, Saturdays and Sundays (cost €20)</p>
             </span>
             <span>
                 <span>
-                    <p>telefoon</p>
-                    <a href="">0612345678</a>
+                    <p>Phone </p>
+                    <hr>
+                    <a href="">
+                        <p>0171252694 </p>
+                    </a>
                 </span>
                 <span>
                     <p>Mail</p>
-                    <a href="">mail@mail.fr</a>
+                    <hr>
+                    <a href="">
+                        <p>Contact us</p>
+                    </a>
                 </span>
             </span>
             <span>
-                <p>hele kleine inieminie tekst</p>
-                <p>retour blah blah</p>
+                <span>
+                    <p>Terms of use</p>
+                    <p>Privacy policy</p>
+                    <p>Site map</p>
+                </span>
+                <a href="">
+                    <p>Back to top</p> <svg class="ml5" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                        viewBox="0 0 26 37">
+                        <path stroke="currentColor" d="M22 32H4c-1.6 0-2.8-1.3-2.8-2.8V0" fill="none" stroke-width="1"
+                            stroke-miterlimit="10"></path>
+                        <path fill="currentColor" d="M25.8 32l-7.6-4.4v8.8z"></path>
+                    </svg>
+                </a>
             </span>
-            <a href="">reserveer</a>
+            <a href="">
+                <p>Reservation</p>
+            </a>
         </section>
-    </main>
+    </footer>
+
 </body>
 
 </html>
