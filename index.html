@@ -12,6 +12,8 @@
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 	<script src="./scripts/menu.js"></script>
 	<script src="./scripts/talen.js"></script>
+	<script src="./scripts/animationloading.js"></script>
+	<script src="./scripts/darkmode.js"></script>
 
 
 </head>
@@ -50,7 +52,7 @@
 						</li>
 				<li>
 					<button id="menuButton" class="hamburger">
-						Menu
+						<p>Menu</p>
 						<span></span>
 						<span></span>
 					</button>
@@ -74,6 +76,7 @@
 		</nav>
 		<section>
 			<img src="./images/header-background.jpeg" alt="">
+			<img src="./images/header-background-drk.jpg" alt="">
 			<span>
 				<h1>ONYX</h1>
 				<h4>Paris</h4>
@@ -116,7 +119,7 @@
 				comfort. Whether it's for a business lunch, a romantic dinner or an evening with friends, the brasserie
 				offers the ideal setting for savoring special moments.
 			</p>
-			<a class="btn" href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+			<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 					height="27" class="mr-xs">
 					<path fill="#0C1E30"
 						d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
@@ -140,7 +143,7 @@
 				<button href="">
 					<p>In the evening</p>
 				</button>
-				<button href="">
+				<button class="active" href="">
 					<p>Lunchtime</p>
 				</button>
 			</span>
@@ -354,6 +357,7 @@
 				</article>
 
 			</section>
+			
 		</section>
 		<section>
 			<img src="./images/main3.avif" alt="foto visje">
@@ -374,56 +378,56 @@
 				<div>
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 							height="27" class="mr-xs">
-							<path fill="#fff"
+							<path
 								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 							</path>
-							<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+							<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 						</svg>
 						<p>Reserve a table</p>
 					</a>
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 							height="27" class="mr-xs">
-							<path fill="#fff"
+							<path fill="#0c1e30"
 								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 							</path>
-							<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 						</svg>
 						<p>Reserve a table</p>
 					</a>
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 							height="27" class="mr-xs">
-							<path fill="#fff"
+							<path fill="#0c1e30"
 								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 							</path>
-							<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 						</svg>
 						<p>Reserve a table</p>
 					</a>
 
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 						height="27" class="mr-xs">
-						<path fill="#fff"
+						<path
 							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 						</path>
-						<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 					</svg>
 					<p>Reserve a table</p>
 				</a>
 				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 						height="27" class="mr-xs">
-						<path fill="#fff"
+						<path
 							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 						</path>
-						<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 					</svg>
 					<p>Reserve a table</p>
 				</a>
 				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 						height="27" class="mr-xs">
-						<path fill="#fff"
+						<path
 							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 						</path>
-						<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 					</svg>
 					<p>Reserve a table</p>
 				</a>
@@ -431,56 +435,56 @@
 				<div>
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 							height="27" class="mr-xs">
-							<path fill="#fff"
+							<path fill="#0c1e30"
 								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 							</path>
-							<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 						</svg>
 						<p>Reserve a table</p>
 					</a>
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 							height="27" class="mr-xs">
-							<path fill="#fff"
+							<path fill="#0c1e30"
 								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 							</path>
-							<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 						</svg>
 						<p>Reserve a table</p>
 					</a>
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 							height="27" class="mr-xs">
-							<path fill="#fff"
+							<path fill="#0c1e30"
 								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 							</path>
-							<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 						</svg>
 						<p>Reserve a table</p>
 					</a>
 
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 						height="27" class="mr-xs">
-						<path fill="#fff"
+						<path
 							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 						</path>
-						<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 					</svg>
 					<p>Reserve a table</p>
 				</a>
 				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 						height="27" class="mr-xs">
-						<path fill="#fff"
+						<path
 							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 						</path>
-						<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 					</svg>
 					<p>Reserve a table</p>
 				</a>
 				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 						height="27" class="mr-xs">
-						<path fill="#fff"
+						<path
 							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 						</path>
-						<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 					</svg>
 					<p>Reserve a table</p>
 				</a>
@@ -488,62 +492,66 @@
 				<div>
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 							height="27" class="mr-xs">
-							<path fill="#fff"
+							<path fill="#0c1e30"
 								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 							</path>
-							<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 						</svg>
 						<p>Reserve a table</p>
 					</a>
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 							height="27" class="mr-xs">
-							<path fill="#fff"
+							<path fill="#0c1e30"
 								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 							</path>
-							<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 						</svg>
 						<p>Reserve a table</p>
 					</a>
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 							height="27" class="mr-xs">
-							<path fill="#fff"
+							<path fill="#0c1e30"
 								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 							</path>
-							<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+							<path fill="#0c1e30" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 						</svg>
 						<p>Reserve a table</p>
 					</a>
 
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 						height="27" class="mr-xs">
-						<path fill="#fff"
+						<path
 							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 						</path>
-						<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 					</svg>
 					<p>Reserve a table</p>
 				</a>
 				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 						height="27" class="mr-xs">
-						<path fill="#fff"
+						<path
 							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 						</path>
-						<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 					</svg>
 					<p>Reserve a table</p>
 				</a>
 				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
 						height="27" class="mr-xs">
-						<path fill="#fff"
+						<path
 							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 						</path>
-						<path fill="#fff" d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
 					</svg>
 					<p>Reserve a table</p>
 				</a>
 				</div>
 			</div>
 		</section>
+		<button id="lightmode">
+			<p>darkmode</p>
+		</button>
+	
 		<button>
 			<svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 26 26" height="54" width="54">
 				<path
@@ -554,6 +562,7 @@
 	</main>
 	<footer>
 		<img src="./images/header-background.jpeg" alt="">
+		<img src="./images/header-background-drk.jpg" alt="">
 		<section>
 			<h2>Come</h2>
 			<span>
