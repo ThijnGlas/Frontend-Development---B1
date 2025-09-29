@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Thijn Glas
 
   #### Je startniveau:
-  rood/zwart
+  rood
 
   #### Je focus:
-  Beide
+  surface plane
  
 </details>
 
@@ -74,13 +74,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="./readme-images/bd1.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="./readme-images/bd2.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  <a href="https://www.figma.com/design/H5e4mgDRC4DsGSExlGaE3j/breakdown-sketch?node-id=0-1&t=6paqE9zHmKUpMiIn-1">link naar breakdown schets</a>
 
 </details>
 
@@ -94,26 +94,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Het maken van de html ging erg goed, dit aangezien ik al veel ervaring heb met html. Voor het gesprek had ik 1 van de 2 pagina's gemaakt in alleen html.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Ik heb niet echt vragen voor het gesprek, dit omdat ik nog niet heel ver was gekomen met de pagina.
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - headings gebruiken voor sections
+  - spans ipv div bij bepaald gedeelte
 
 </details>
 
@@ -127,26 +121,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik ben klaar met pagina 1 met css volledig en bijna klaar met pagina 2. 
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Ik heb geen vragen want ben nog lekker bezig met het maken van de websites, het gaat goed met het maken.
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - articles moeten ook een heading hebben net als sections.
+
 
 </details>
 
@@ -174,26 +161,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  vragen die ik aan Danny heb gesteld:
+  Waar kan ik de heading invisibility vinden?
+  hoe kan ik de menu kruisje krijgen?
+  video controls werken niet met touchscreen
+  mag de svg inline gestijlt zijn?
+  is animatie genoeg gedaan en micro interactie?
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - al mijn vragen zijn beantwoord, ik moet testen op mobiel of de controls werken
 
 </details>
 
