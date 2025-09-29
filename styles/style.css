@@ -286,6 +286,11 @@ a {
 	font-weight: 300;
 }
 
+a:focus {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
 i {
 	font-family: var(--p-font);
 
@@ -314,6 +319,8 @@ button {
 	white-space: nowrap;
 	width: 1px;
 }
+
+/* bron: https://www.a11yproject.com/posts/how-to-hide-content/ */
 
 
 /*********************/

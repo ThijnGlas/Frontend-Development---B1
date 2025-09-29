@@ -146,9 +146,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
+  <img src="./readme-images/wcag1.png" width="375px" alt="">
+  <img src="./readme-images/wcag2.png" width="375px" alt="">
+  <img src="./readme-images/wcag3.png" width="375px" alt="">
+  <img src="./readme-images/wcag4.png" width="375px" alt="">
+  <img src="./readme-images/wcag5.png" width="375px" alt="">
+
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
+  - Het testen ging goed, wanneer ik een screenreader gebruik heb ik nu ook hun heading probleem opgelost. Zij hebben dit zo aangezien ze de teksten letter voor letter willen in laten animeren.
+  - Verder heb ik ervoor gesorgd dat de video nu wel pauzeren en deze start niet automatisch.
+  - Mijn validator geeft bij de svg's een error aangezien deze door hun inlijn gestyled zijn met een width en height.
+  - Verder geeft de validator ook een error bij teksten die in spans staan, de student assistent zei dat ik in mijn html spans moest gebruiken inplaats van div's omdat dat bij dit vak niet mag maar online staat de oplossing dat ik het in een div moet zetten inplaatsvan een span.
 </details>
 
 
@@ -164,7 +173,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   
 
   ### Agenda voor meeting
-  vragen die ik aan Danny heb gesteld:
+  vragen:
   Waar kan ik de heading invisibility vinden?
   hoe kan ik de menu kruisje krijgen?
   video controls werken niet met touchscreen
@@ -175,7 +184,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  - al mijn vragen zijn beantwoord, ik moet testen op mobiel of de controls werken
+  - al mijn vragen zijn beantwoord, ik moet testen op mobiel of de controls dan wel werken, dit doen ze.
+  - de heading invisibilty css heb ik nu gevonden.
+  - Ik had gevraagd of ik perse de menu knop tot kruis moet animeren, dit moest dus daar ben ik verder mee gegaan.
+  - de svg mocht niet inline gestijld zijn dit heb ik dus aangepast.
+  
 
 </details>
 
@@ -189,19 +202,32 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/screenshot1.png" width="375px" alt="uitomst opdracht 1">
+    <img src="readme-images/screenshot2.png" width="375px" alt="uitomst opdracht 1">
+      <img src="readme-images/screenshot3.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
+  Ik heb geleerd een nette pagina te maken met html css en js, deze pagina heeft een hamburger menu met een geanimeerde knop.
+  <img src="readme-images/screenshot-hamburger.png" width="375px" alt="hamburger menu">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+Verder heeft de website nog een dropdown menu voor talen. 
+  <img src="readme-images/screenshot-dropdown.png" width="375px" alt="dropdown menu">
+
+  Ook heb ik de menu items geanimeerd doormiddel van de javascript IntersectionObserver. Daarnaast werkt het menu ook, als je op de lunch button klikt krijg je de lunch items en andersom ook natuurlijk.
+  <img src="readme-images/screenshot-dropdown.png" width="375px" alt="menu kaart gedeelte">
+
+ En als laatste Surface plane heb ik een dark mode gemaakt, deze dark mode reageert ook op de voorkeuren van je systeem.
+  <img src="readme-images/screenshot-dropdown.png" width="375px" alt="menu kaart gedeelte">
+
+
+
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het meeste wat ik wilde maken is me gelukt, het enige jammer vind ik wel dat ik erg veel tijd heb gestoken in de dark mode. Ik had verwacht dat dit iets sneller ging dan verwacht maar aangezien die mogelijkheid nog erg nieuw is (zoals Danny al had gezegd) was er nog niet heel veel informatie om te researchen. 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 
@@ -213,12 +239,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. bron: https://www.a11yproject.com/posts/how-to-hide-content/
+  2. bron: https://codepen.io/daltonw/pen/YzpbWvW?editors=1010
+  3. 
 
 </details>
