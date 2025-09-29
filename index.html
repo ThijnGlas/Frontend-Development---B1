@@ -10,11 +10,11 @@
 
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
-	<script src="./scripts/menu.js"></script>
+	<script src="./scripts/hamburgermenu.js"></script>
 	<script src="./scripts/talen.js"></script>
 	<script src="./scripts/animationloading.js"></script>
 	<script src="./scripts/darkmode.js"></script>
-
+	<script src="./scripts/menu.js"></script>
 
 </head>
 
@@ -36,20 +36,23 @@
 								</clipPath>
 							</defs>
 						</svg></a></li>
-						<li class="taal">
-							<a href="">EN <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="512" height="512" viewBox="0 0 512 512"><path d="m396.6 160 19.4 20.7L256 352 96 180.7l19.3-20.7L256 310.5z"/></svg></a>
-							<ul class="dropdown">
-								<li><a href="">ar</a></li>
-								<li><a href="">fr</a></li>
-								<li><a href="">br</a></li>
-								<li><a href="">nl</a></li>
-								<li><a href="https://www.youtube.com/">de</a></li>
-								<li><a href="">it</a></li>
-								<li><a href="">ru</a></li>
-								<li><a href="">zh</a></li>
-								<li><a href="">es</a></li>
-							</ul>
-						</li>
+				<li class="taal">
+					<a href="">EN <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="512" height="512"
+							viewBox="0 0 512 512">
+							<path d="m396.6 160 19.4 20.7L256 352 96 180.7l19.3-20.7L256 310.5z" />
+						</svg></a>
+					<ul class="dropdown">
+						<li><a href="">ar</a></li>
+						<li><a href="">fr</a></li>
+						<li><a href="">br</a></li>
+						<li><a href="">nl</a></li>
+						<li><a href="https://www.youtube.com/">de</a></li>
+						<li><a href="">it</a></li>
+						<li><a href="">ru</a></li>
+						<li><a href="">zh</a></li>
+						<li><a href="">es</a></li>
+					</ul>
+				</li>
 				<li>
 					<button id="menuButton" class="hamburger">
 						<p>Menu</p>
@@ -75,15 +78,16 @@
 			</ul>
 		</nav>
 		<section>
-			<img src="./images/header-background.jpeg" alt="">
-			<img src="./images/header-background-drk.jpg" alt="">
+			<h2 class="visually-hidden">Header Section</h2>
+			<img src="./images/header-background.jpeg">
+			<img src="./images/header-background-drk.jpg">
 			<span>
 				<h1>ONYX</h1>
 				<h4>Paris</h4>
 				<h4>Bistronomic restaurant</h4>
 			</span>
 			<span>
-				<a href=""><svg class="img-cover" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 105 105"
+				<a href=""><svg alt="Meilleure table elu 2024 Bistrocomique" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 105 105"
 						width="105" height="104">
 						<path fill="#0C1E30"
 							d="M52.497 104.995c28.994 0 52.498-23.504 52.498-52.498C104.995 23.504 81.491 0 52.497 0 23.504 0 0 23.504 0 52.497c0 28.994 23.504 52.498 52.497 52.498Z">
@@ -92,12 +96,12 @@
 							d="M15.817 33.22v.017l2.977 3.003-.185.386-4.188-.473v.017l3.275 2.183-.532 1.114-5.372-3.732.375-.782 4.41.38-3.101-3.123.38-.799 6.23 1.923-.532 1.114-3.737-1.228ZM18.283 26.93l1.097.837 1.179-1.548.847.646-1.178 1.548 1.352 1.032 1.228-1.608.847.647-1.966 2.585-4.997-3.807 1.966-2.586.847.647-1.227 1.607h.005ZM26.653 25.323l-.874.858-4.4-4.476.875-.858 4.4 4.476ZM29.402 21.613l1.39-1.038.641.853-2.368 1.776-3.77-5.035.983-.733 3.13 4.177h-.006ZM34.296 18.49l1.526-.82.505.939-2.607 1.401-2.971-5.54 1.08-.581 2.467 4.6ZM38.25 12.216l.45 1.309 1.848-.636.347 1.01-1.847.636.554 1.608 1.918-.657.347 1.01-3.074 1.054-2.042-5.943 3.074-1.053.348 1.01-1.918.657-.005-.005ZM43.91 9.495l1.211-.174.5 3.482c.108.765.331 1.84 1.363 1.689 1.032-.152.945-1.239.831-2.005l-.5-3.481 1.212-.174.532 3.72c.217 1.521-.26 2.76-1.928 2.999-1.668.239-2.477-.815-2.694-2.336l-.533-3.72h.006ZM56.788 15.17l-1.482-.075-1.396-2.607h-.017l-.13 2.53-1.222-.06.315-6.278 1.656.081c1.239.066 2.07.658 2.005 2-.038.798-.522 1.574-1.37 1.678l1.641 2.737v-.005Zm-2.851-3.54h.157c.674.043 1.157-.137 1.2-.902.039-.777-.445-.951-1.097-.984l-.168-.01-.098 1.89.006.005ZM61.79 10.793l-.309 1.347 1.901.434-.239 1.038-1.9-.435-.38 1.657 1.97.456-.238 1.038-3.167-.728 1.407-6.127 3.167.728-.24 1.037-1.977-.456.006.01ZM71.639 20.238l-1.065-.608 2.596-4.53-1.097-.63.532-.923 3.265 1.868-.532.924-1.098-.63-2.596 4.53h-.005ZM76.288 21.797l-1.238.696-1-.82 5.986-3.428.733.603-2.254 6.49-1.01-.83.467-1.331-1.684-1.385v.005Zm2.9-1.863-.01-.01-1.983 1.325 1.152.945.842-2.26ZM85.163 23.291l.967 1.179c.739.901.842 1.743-.125 2.536-.347.288-.847.49-1.287.348.37.657 0 1.39-.532 1.83-.95.783-1.929.462-2.65-.418l-1.223-1.488 4.85-3.987Zm-3.313 4.307.163.201c.418.511.842.891 1.472.375s.234-1.054-.157-1.532l-.125-.152-1.353 1.114v-.006Zm2.07-1.705.097.114c.38.462.701.576 1.206.163.495-.408.391-.799.065-1.195l-.103-.12-1.26 1.038h-.005ZM85.967 33.329l.864 1.504-.923.533-1.472-2.564 5.448-3.123.608 1.064-4.52 2.597-.005-.011ZM92.344 37.082l-1.293.489.69 1.825-1 .375-.689-1.825-1.592.597.712 1.896-1 .375-1.145-3.042 5.877-2.216 1.146 3.042-1 .374-.711-1.895.005.005ZM18.44 67.234l.68 1.363c.516 1.043.423 1.89-.696 2.444-.402.201-.934.288-1.336.049.212.722-.315 1.352-.934 1.662-1.103.549-1.983.016-2.488-1.005l-.853-1.722 5.628-2.791Zm-4.204 3.449.114.233c.294.592.62 1.06 1.353.7.733-.363.467-.971.19-1.525l-.087-.18-1.57.777v-.005Zm2.407-1.19.065.136c.266.538.554.722 1.135.434.576-.282.56-.684.331-1.151l-.07-.141-1.461.722ZM17.213 77.668l-.695-1.005 5.165-3.574.696 1.005-5.166 3.574ZM25.198 79.569c.07-.386.016-.744-.267-1.043-.266-.288-.744-.358-1.042-.076-.777.722 1.249 2.243-.3 3.683-.923.858-2.107.89-2.981-.05-.592-.635-.657-1.439-.424-2.253l1.108.049c-.239.45-.255 1.07.103 1.455.343.364.864.304 1.217-.027.478-.445.201-1.01.006-1.5-.31-.82-.413-1.53.304-2.194.76-.711 1.906-.716 2.629.06.38.408.706 1.163.657 1.733l-1.016.157.006.006ZM26.517 87.184l-.972-.75 3.194-4.133-1.005-.777.652-.847 2.977 2.297-.652.848-1.005-.777-3.194 4.134.005.005ZM34.214 91.872l-1.309-.701-.152-2.955h-.016l-1.195 2.227-1.081-.576 2.96-5.54 1.461.782c1.098.587 1.592 1.478.962 2.656-.375.706-1.146 1.2-1.956.93l.315 3.171.011.006Zm-1.07-4.416.141.076c.598.32 1.109.364 1.472-.31.364-.684 0-1.048-.57-1.352l-.147-.076-.89 1.667-.006-.005ZM40.173 94.229c-1.842-.543-2.57-2.287-2.048-4.063.527-1.792 2.113-2.819 3.916-2.292 1.798.532 2.58 2.254 2.053 4.047-.521 1.776-2.08 2.846-3.921 2.308Zm1.526-5.193c-1.113-.326-2.058.462-2.341 1.44-.272.928-.147 2.21 1.157 2.59 1.304.38 2.102-.624 2.38-1.553.287-.978-.082-2.15-1.19-2.482l-.006.005ZM47.43 89.14l.88.054 3.025 4.59h.016l.266-4.215 1.223.076-.403 6.393-.88-.055-3.025-4.59h-.016l-.266 4.26-1.222-.077.401-6.436ZM59.395 95.457c-1.89.298-3.297-.962-3.59-2.787-.293-1.841.7-3.454 2.548-3.748 1.846-.293 3.291.929 3.585 2.77.293 1.825-.658 3.46-2.548 3.765h.005Zm-.847-5.34c-1.146.185-1.657 1.304-1.499 2.303.152.956.815 2.053 2.156 1.842 1.342-.212 1.63-1.467 1.478-2.423-.158-1.005-.994-1.906-2.14-1.727l.005.005ZM69.048 88.341h-.017l.201 4.231-.39.163-2.793-3.161h-.016l.972 3.824-1.14.473-1.483-6.366.804-.332L68.2 90.41l-.206-4.394.815-.337 3.33 5.606-1.141.473-1.95-3.417ZM76.293 88.727l-1.032.657-3.373-5.301 1.032-.658 3.373 5.302ZM83.29 83.43l-.674-.097c-.125.494-.44.978-.87 1.363-1.357 1.233-3.318.967-4.53-.364-1.183-1.303-1.275-3.302.082-4.535 1.358-1.233 3.34-.95 4.52.353.57.63.918 1.396.983 2.184l1.32.173-.831.924Zm-1.847-1.227c-.027-.44-.293-.907-.587-1.227-.684-.75-1.96-1.054-2.775-.315-.88.803-.609 2.07.124 2.873.701.771 1.858 1.092 2.749.282.168-.152.299-.401.348-.597l-1.565-.185.87-.923.841.092h-.005ZM81.296 75.935l.712-.994 2.862 2.042c.63.451 1.56 1.032 2.162.185.603-.847-.245-1.537-.874-1.988l-2.863-2.048.712-.994 3.058 2.184c1.249.89 1.808 2.091.83 3.465-.977 1.374-2.297 1.222-3.546.332l-3.058-2.184h.005ZM86.88 68.999l1.25.586.825-1.765.967.45-.826 1.766 1.537.723.858-1.83.967.45-1.38 2.938-5.686-2.666 1.38-2.939.966.45-.858 1.831V69ZM45.203 50.189h1.95v1.064h-1.95v1.7h2.025v1.065H43.98V47.74h3.248v1.065h-2.026v1.385ZM51.77 52.959h1.732v1.065h-2.955v-6.28h1.222v5.215ZM56.36 47.745h1.221v3.514c0 .777.066 1.863 1.108 1.863 1.043 0 1.108-1.092 1.108-1.863v-3.514h1.223v3.758c0 1.532-.652 2.689-2.33 2.689-1.679 0-2.33-1.157-2.33-2.689v-3.758ZM51.981 27.788l1.413 2.863 3.16.456-2.286 2.233.538 3.145-2.825-1.489-2.824 1.489.538-3.145-2.287-2.233 3.161-.456 1.412-2.863ZM37.033 68.293v.608h-6.311l3.813-4.193c.771-.858 1.885-2.02 1.885-3.216 0-1.33-1.098-2.346-2.418-2.346-1.396 0-2.455 1.02-2.417 2.417h-.652c.028-.733.136-1.358.636-1.94.598-.662 1.548-1.086 2.428-1.086 1.695 0 3.069 1.293 3.069 2.999 0 1.368-1.043 2.482-1.928 3.449l-2.971 3.313h4.86l.006-.005ZM50.205 63.72c0 2.118-1.113 5.322-3.72 5.322-2.608 0-3.721-3.204-3.721-5.323 0-2.118 1.178-5.187 3.72-5.187 2.542 0 3.721 3.042 3.721 5.187Zm-.652 0c0-1.614-.88-4.574-3.069-4.574s-3.069 2.96-3.069 4.573c0 1.847.88 4.71 3.07 4.71 2.188 0 3.068-2.863 3.068-4.71ZM62.019 68.293v.608h-6.312l3.813-4.193c.772-.858 1.885-2.02 1.885-3.216 0-1.33-1.097-2.346-2.417-2.346-1.396 0-2.455 1.02-2.417 2.417h-.652c.027-.733.136-1.358.636-1.94.597-.662 1.548-1.086 2.428-1.086 1.694 0 3.069 1.293 3.069 2.999 0 1.368-1.043 2.482-1.929 3.449l-2.97 3.313h4.86l.006-.005ZM75.039 66.353v.609h-1.44V68.9h-.651v-1.94h-5.524v-.08l6.094-8.566h.081v8.038h1.44Zm-2.091-6.056h-.082l-4.248 5.975v.081h4.33v-6.056Z">
 						</path>
 					</svg></a>
-				<a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 95" width="30" height="30">
+				<a href=""><svg alt="Open table logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 95" width="30" height="30">
 						<path
 							d="M83.36 0a47.5 47.5 0 1047.46 47.5A47.48 47.48 0 0083.36 0zm0 59.37A11.87 11.87 0 1195.22 47.5a11.87 11.87 0 01-11.87 11.87zM0 47.5a11.87 11.87 0 1111.87 11.87A11.87 11.87 0 010 47.5"
 							fill="#da3743"></path>
 					</svg>5</a>
-				<a href=""><svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 50 50" width="30"
+				<a href=""><svg alt="google logo" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 50 50" width="30"
 						height="30">
 						<image
 							href="data:image/png;base64,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">
@@ -112,15 +116,15 @@
 	</header>
 	<main>
 		<section>
-			<video controls loop autoplay src="./images/video.mp4"></video>
-			<img src="./images/main1.avif" alt="">
+			<video alt="Atmospheric video of the restaurant and the food" controls loop autoplay src="./images/video.mp4"></video>
+			<img alt="Colorful salad dish" src="./images/main1.avif" >
 			<h3>unique in paris</h3>
 			<p>Our establishment welcomes you in a chic and warm decor, where every detail has been thought of for your
 				comfort. Whether it's for a business lunch, a romantic dinner or an evening with friends, the brasserie
 				offers the ideal setting for savoring special moments.
 			</p>
-			<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
-					height="27" class="mr-xs">
+			<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29" height="27"
+					class="mr-xs">
 					<path fill="#0C1E30"
 						d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
 					</path>
@@ -130,7 +134,7 @@
 			</a>
 		</section>
 		<section>
-			<img src="./images/main2.avif" alt="">
+			<img alt="Staircase with focus on an abstract detail" src="./images/main2.avif" >
 			<h3>The map</h3>
 			<p>On the evenings of special days (Valentine's Day, Christmas and New Year's Eve) a single menu is offered
 				(no à la carte service).
@@ -139,15 +143,17 @@
 			</p>
 		</section>
 		<section>
+			<h2 class="visually-hidden">Menu section</h2>
 			<span>
-				<button href="">
+				<button id="avondBtn" class="active" href="">
 					<p>In the evening</p>
 				</button>
-				<button class="active" href="">
+				<button id="lunchBtn" href="">
 					<p>Lunchtime</p>
 				</button>
 			</span>
-			<section>
+			
+			<section class="avond">
 				<h3>Evening menu</h3>
 				<i>(Evenings only, except on special days)</i>
 				<h4>Inputs</h4>
@@ -357,20 +363,217 @@
 				</article>
 
 			</section>
-			
+			<section class="lunch">
+				<h3>Lunch menu</h3>
+				<i>(Weekday lunchtimes only, excluding public holidays and special days)</i>
+
+				<h4>Inputs</h4>
+
+				<article>
+					<span>
+						<h4>* The Trout</h4>
+						<p>18 €</p>
+					</span>
+					<p>
+						Hay smoked, kumquat condiment, Lazio turnip siphon, Isigny horseradish cream,
+						orange vinaigrette, radish, almond.
+					</p>
+				</article>
+
+				<article>
+					<span>
+						<h4>* The Rabbit</h4>
+						<p>18 €</p>
+					</span>
+					<p>
+						Saddle of rabbit with sage, confit leg, marinated shiméji mushrooms, butternut salad.
+					</p>
+				</article>
+
+				<article>
+					<span>
+						<h4>Salmon</h4>
+						<p>19 €</p>
+					</span>
+					<p>
+						Citrus gravlax, multicolored radishes, black olive tapenade, Greek pastis yogurt,
+						calamansi "ponzu" sauce, dill.
+					</p>
+				</article>
+
+				<article>
+					<span>
+						<h4>La Burratina</h4>
+						<p>25 €</p>
+					</span>
+					<p>
+						Butternut and spaghetti squash salad, pumpkin cream, orange juice concentrate, pumpkin seeds.
+					</p>
+				</article>
+
+				<article>
+					<span>
+						<h4>Tuna</h4>
+						<p>29 €</p>
+					</span>
+					<p>
+						Mediterranean red tuna, smoked beet, white celery, Wazabi stracciatella, shiso/chili condiment,
+						raspberries.
+					</p>
+				</article>
+
+				<article>
+					<span>
+						<h4>Foie Gras</h4>
+						<p>38 €</p>
+					</span>
+					<p>
+						Mi-cuit, sangria jelly, spiced black grape compote, tart quince, four-spice crumble, toasted
+						brioche.
+					</p>
+				</article>
+
+				<h4>Dishes</h4>
+
+				<article>
+					<span>
+						<h4>* Le Poisson du Marché</h4>
+						<p>29 €</p>
+					</span>
+					<p>
+						Cream of celeriac with hazelnut butter, roasted leek, cauliflower, saffron sauce.
+					</p>
+				</article>
+
+				<article>
+					<span>
+						<h4>* Chicken</h4>
+						<p>29 €</p>
+					</span>
+					<p>
+						Farm chicken supreme stuffed with tarragon mushrooms, Cévenne sweet onion purée, broccolini,
+						romanesco cabbage, grilled oyster mushrooms, shallot crumble and turkey bacon.
+					</p>
+				</article>
+
+				<article>
+					<span>
+						<h4>Wild Mushrooms</h4>
+						<p>29 €</p>
+					</span>
+					<p>
+						Japanese-style wild mushroom fricassee, perfect egg, chestnuts with coriander,
+						pumpkin, hazelnut, autumn truffle.
+					</p>
+				</article>
+
+				<article>
+					<span>
+						<h4>The Octopus</h4>
+						<p>35 €</p>
+					</span>
+					<p>
+						Snacké, black rice risotto, spinach with garlic, kale, balsamic vinegar.
+					</p>
+				</article>
+
+				<article>
+					<span>
+						<h4>Le Maigre</h4>
+						<p>38 €</p>
+					</span>
+					<p>
+						Two-step cooking, mussels, small stew of paimpol coconut and corn, grilled yellow leek,
+						smoked with lemongrass.
+					</p>
+				</article>
+
+				<article>
+					<span>
+						<h4>Beef tenderloin</h4>
+						<p>48 €</p>
+					</span>
+					<p>
+						Roasted Black Angus beef tenderloin, potato pancake, shallot confit,
+						hazelnut praline and mustard seeds.
+					</p>
+				</article>
+
+				<h4>Desserts</h4>
+
+				<article>
+					<span>
+						<h4>* Les Noisettes</h4>
+						<p>15 €</p>
+					</span>
+					<p>
+						Madeleine cookie with verbena berries, Thai tea caramel sauce, hazelnut ganache,
+						roasted hazelnuts, honey tuile and hazelnut ice cream.
+					</p>
+				</article>
+
+				<article>
+					<span>
+						<h4>Le Mille-Feuille Signature</h4>
+						<p>16 €</p>
+					</span>
+					<p>
+						Reverse puff pastry, intense toasted vanilla cream, caramel, Tonka beans.
+					</p>
+				</article>
+
+				<article>
+					<span>
+						<h4>The "Glazed" Cup</h4>
+						<p>16 €</p>
+					</span>
+					<p>
+						Vanilla ice cream, caramel espuma, caramelized peanuts, cocoa shortbread,
+						banana and vanilla confit, miso caramel.
+					</p>
+				</article>
+
+				<article>
+					<span>
+						<h4>The Fig</h4>
+						<p>18 €</p>
+					</span>
+					<p>
+						Shortbread and almond dacquoise, fig leaf ganache, fig confit with raspberry vinegar,
+						honey-roasted fig with yuzu juice, fresh milk ice cream.
+					</p>
+				</article>
+
+				<article>
+					<span>
+						<h4>Paris-Brest Signature</h4>
+						<p>19 €</p>
+					</span>
+					<p>
+						Crunchy choux pastry, intense pecan and hazelnut praline cream, caramelized vanilla ganache,
+						pecans and roasted hazelnuts.
+					</p>
+				</article>
+			</section>
+
 		</section>
+
+
 		<section>
-			<img src="./images/main3.avif" alt="foto visje">
+			<h2 class="visually-hidden">Image section</h2>
+			<img alt="White fish dish with a green powder ontop" src="./images/main3.avif">
 			<section>
-				<img src="./images/main4.avif" alt="foto restaurant">
+				<h2 class="visually-hidden">Onyx experience section</h2>
+				<img alt="Set tables with warm lighting" src="./images/main4.avif">
 				<p>
 					Discover an exceptional culinary experience where tradition and innovation meet in the luxurious
 					setting
 					of our Parisian brasserie.</p>
 			</section>
 			<section>
+				<h2 class="visually-hidden">Onyx section</h2>
 				<span>
-					<img src="./images/main5.avif" alt="foto 2 restaurant">
+					<img alt="restaurant Onyx" src="./images/main5.avif">
 					<h2>onyx <br>paris</h2>
 				</span>
 			</section>
@@ -405,32 +608,32 @@
 					</a>
 
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
-						height="27" class="mr-xs">
-						<path
-							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
-						</path>
-						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
-					</svg>
-					<p>Reserve a table</p>
-				</a>
-				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
-						height="27" class="mr-xs">
-						<path
-							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
-						</path>
-						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
-					</svg>
-					<p>Reserve a table</p>
-				</a>
-				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
-						height="27" class="mr-xs">
-						<path
-							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
-						</path>
-						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
-					</svg>
-					<p>Reserve a table</p>
-				</a>
+							height="27" class="mr-xs">
+							<path
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+							height="27" class="mr-xs">
+							<path
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+							height="27" class="mr-xs">
+							<path
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
 				</div>
 				<div>
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
@@ -462,32 +665,32 @@
 					</a>
 
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
-						height="27" class="mr-xs">
-						<path
-							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
-						</path>
-						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
-					</svg>
-					<p>Reserve a table</p>
-				</a>
-				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
-						height="27" class="mr-xs">
-						<path
-							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
-						</path>
-						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
-					</svg>
-					<p>Reserve a table</p>
-				</a>
-				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
-						height="27" class="mr-xs">
-						<path
-							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
-						</path>
-						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
-					</svg>
-					<p>Reserve a table</p>
-				</a>
+							height="27" class="mr-xs">
+							<path
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+							height="27" class="mr-xs">
+							<path
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+							height="27" class="mr-xs">
+							<path
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
 				</div>
 				<div>
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
@@ -519,39 +722,39 @@
 					</a>
 
 					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
-						height="27" class="mr-xs">
-						<path
-							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
-						</path>
-						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
-					</svg>
-					<p>Reserve a table</p>
-				</a>
-				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
-						height="27" class="mr-xs">
-						<path
-							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
-						</path>
-						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
-					</svg>
-					<p>Reserve a table</p>
-				</a>
-				<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
-						height="27" class="mr-xs">
-						<path
-							d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
-						</path>
-						<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
-					</svg>
-					<p>Reserve a table</p>
-				</a>
+							height="27" class="mr-xs">
+							<path
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+							height="27" class="mr-xs">
+							<path
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
+					<a href=""><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 29 27" width="29"
+							height="27" class="mr-xs">
+							<path
+								d="M15.134 0h2.523c-1.013 7.988 6.726 12.314 10.719 13.478C17.782 11.881 15.134 3.827 15.134 0ZM28.376 13.478c-3.993 1.166-11.732 5.492-10.72 13.478h-2.522c0-3.827 2.648-11.88 13.242-13.478Z">
+							</path>
+							<path d="M28.376 13.478 0 12.198v3.2l28.375-1.923"></path>
+						</svg>
+						<p>Reserve a table</p>
+					</a>
 				</div>
 			</div>
 		</section>
 		<button id="lightmode">
 			<p>darkmode</p>
 		</button>
-	
+
 		<button>
 			<svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 26 26" height="54" width="54">
 				<path
@@ -561,8 +764,8 @@
 		</button>
 	</main>
 	<footer>
-		<img src="./images/header-background.jpeg" alt="">
-		<img src="./images/header-background-drk.jpg" alt="">
+		<img src="./images/header-background.jpeg">
+		<img src="./images/header-background-drk.jpg">
 		<section>
 			<h2>Come</h2>
 			<span>
